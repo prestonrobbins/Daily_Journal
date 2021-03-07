@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+    <body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Daily Journal</h2>
+                <form action="">
+                    <fieldset>
+                    <label for="journalDate">Date of entry:</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalConcept">Concepts Covered:</label>
+                        <input type="text" name="journalConcept" id="journalConcept">
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalEntry">Journal Entry:</label>
+                        <input type="text" name="journalConcept" id="journalConcept">
+                    </fieldset>
+                    <fieldset>
+                        <label for="Mood">Mood:</label>
+                        <select class="journalMood">
+                            <option value="iGotThis">I Got This</option>
+                            <option value="sappy">Happy</option>
+                            <option value="sad">Sad</option>
+                            <option value="confused" selected>Confused</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalReset"></label>
+                        <input type="reset" name="journalReset" id="journalReset">
+                    
+                    
+                        <label for="journalSubmit"></label>
+                        <input type="submit" name="journalSubmit" id="journalSubmit">
+                    </fieldset>
+
+                </form>
+            </article>
+            <div class="entryLog"></div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="module" src="./scripts/JournalEntryList.js"></script>
+    </body>
+</html>
+
